@@ -15,7 +15,7 @@
     This source file provides implementations for PIC24 / dsPIC33 / PIC32MM MCUs interrupts.
     Generation Information : 
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.168.0
-        Device            :  PIC24FJ256GA702
+        Device            :  PIC24FJ256GA705
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB             :  MPLAB X v5.40
@@ -47,11 +47,11 @@
 
 /**
   @Summary
-    Initializes the interrupt priorities of the PIC24FJ256GA702
+    Initializes the interrupt priorities of the PIC24FJ256GA705
 
   @Description
     This routine sets the interrupt priorities of the modules that have been configured
-    for the PIC24FJ256GA702
+    for the PIC24FJ256GA705
 
   @Preconditions
     None.
@@ -76,10 +76,10 @@ void INTERRUPT_Initialize(void);
 
 /**
   @Summary
-    Enables global interrupts of the PIC24FJ256GA702
+    Enables global interrupts of the PIC24FJ256GA705
 
   @Description
-    This routine enables the global interrupt bit for the PIC24FJ256GA702
+    This routine enables the global interrupt bit for the PIC24FJ256GA705
 
   @Preconditions
     None.
@@ -107,10 +107,10 @@ inline static void INTERRUPT_GlobalEnable(void)
 
 /**
   @Summary
-    Disables global interrupts of the PIC24FJ256GA702
+    Disables global interrupts of the PIC24FJ256GA705
 
   @Description
-    This routine disables the global interrupt bit for the PIC24FJ256GA702
+    This routine disables the global interrupt bit for the PIC24FJ256GA705
 
   @Preconditions
     None.

@@ -14,7 +14,7 @@
     This source file provides APIs for ADC1.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.168.0
-        Device            :  PIC24FJ256GA702      
+        Device            :  PIC24FJ256GA705      
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB 	          :  MPLAB X v5.40
@@ -76,7 +76,7 @@ void ADC1_Initialize (void)
     AD1CON4 = 0x00;
     // ASEN disabled; WM Legacy operation; ASINT No interrupt; CM Less Than mode; BGREQ disabled; CTMREQ disabled; LPEN disabled; 
     AD1CON5 = 0x00;
-    // CHH2 disabled; CHH1 disabled; CHH0 disabled; CHH9 disabled; CHH8 disabled; CHH7 disabled; CHH6 disabled; CHH5 disabled; CHH4 disabled; CHH3 disabled; 
+    // CHH9 disabled; CHH8 disabled; CHH7 disabled; CHH6 disabled; CHH5 disabled; CHH4 disabled; CHH3 disabled; CHH2 disabled; CHH1 disabled; CHH0 disabled; CHH11 disabled; CHH10 disabled; CHH13 disabled; CHH12 disabled; 
     AD1CHITL = 0x00;
     // CTMEN30 disabled; CTMEN29 disabled; CTMEN28 disabled; 
     AD1CTMENH = 0x00;

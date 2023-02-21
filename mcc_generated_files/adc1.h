@@ -14,7 +14,7 @@
     This header file provides APIs for driver for ADC1.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.168.0
-        Device            :  PIC24FJ256GA702
+        Device            :  PIC24FJ256GA705
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB 	          :  MPLAB X v5.40

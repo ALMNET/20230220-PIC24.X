@@ -14,7 +14,7 @@
     This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.168.0
-        Device            :  PIC24FJ256GA702
+        Device            :  PIC24FJ256GA705
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB             :  MPLAB X v5.40
@@ -85,7 +85,7 @@
 #pragma config DNVPEN = ENABLE    //Downside Voltage Protection Enable bit->Downside protection enabled using ZPBOR when BOR is inactive
 
 // FICD
-#pragma config ICS = PGD1    //ICD Communication Channel Select bits->Communicate on PGEC1 and PGED1
+#pragma config ICS = PGD2    //ICD Communication Channel Select bits->Communicate on PGEC2 and PGED2
 #pragma config JTAGEN = OFF    //JTAG Enable bit->JTAG is disabled
 
 // FDEVOPT1
@@ -97,16 +97,16 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
-#include "adc1.h"
 #include "interrupt_manager.h"
 #include "traps.h"
 #include "uart1.h"
+#include "adc1.h"
 
 void SYSTEM_Initialize(void)
 {
     PIN_MANAGER_Initialize();
-    CLOCK_Initialize();
     INTERRUPT_Initialize();
+    CLOCK_Initialize();
     ADC1_Initialize();
     UART1_Initialize();
 }
