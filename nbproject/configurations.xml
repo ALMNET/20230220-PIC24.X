@@ -4,12 +4,6 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <logicalFolder name="MCC Generated Files"
-                     displayName="MCC Generated Files"
-                     projectFiles="true">
-        <itemPath>mcc_generated_files/adc1.h</itemPath>
-        <itemPath>mcc_generated_files/adc_module_features.h</itemPath>
-      </logicalFolder>
       <logicalFolder name="mcc_generated_files"
                      displayName="mcc_generated_files"
                      projectFiles="true">
@@ -19,9 +13,10 @@
         <itemPath>mcc_generated_files/pin_manager.h</itemPath>
         <itemPath>mcc_generated_files/system.h</itemPath>
         <itemPath>mcc_generated_files/traps.h</itemPath>
+        <itemPath>mcc_generated_files/adc1.h</itemPath>
+        <itemPath>mcc_generated_files/adc_module_features.h</itemPath>
       </logicalFolder>
       <itemPath>AUX_FUNCTIONS.h</itemPath>
-      <itemPath>MCP4728.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
