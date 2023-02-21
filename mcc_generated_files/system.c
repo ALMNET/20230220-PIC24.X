@@ -14,7 +14,7 @@
     This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.168.0
-        Device            :  PIC24FJ256GA705
+        Device            :  PIC24FJ256GA702
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB             :  MPLAB X v5.40
@@ -97,16 +97,18 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
+#include "adc1.h"
 #include "interrupt_manager.h"
 #include "traps.h"
-#include "adc1.h"
+#include "uart1.h"
 
 void SYSTEM_Initialize(void)
 {
     PIN_MANAGER_Initialize();
-    INTERRUPT_Initialize();
     CLOCK_Initialize();
+    INTERRUPT_Initialize();
     ADC1_Initialize();
+    UART1_Initialize();
 }
 
 /**

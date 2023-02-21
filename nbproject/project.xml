@@ -17,7 +17,11 @@
             </sourceRootList>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>REQUESTED_PIC24FJ256GA705</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>TESTING_PIC24FJ256GA702</name>
                     <type>2</type>
                 </confElem>
             </confList>
